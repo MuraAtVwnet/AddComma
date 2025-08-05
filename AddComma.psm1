@@ -44,6 +44,6 @@
 	}
 
 	############ 本来の処理
-	$_.ToString("#,0.########") | Set-Clipboard -PassThru
+	$_.ToString("#,0.##########") | Set-Clipboard -PassThru
 }
 
