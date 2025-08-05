@@ -71,3 +71,7 @@ git@github.com:MuraAtVwnet/AddComma.git
 
 計算結果を PowerShell でカンマ付きにしてクリップボードに格納する
 https://www.vwnet.jp/windows/PowerShell/2025080501/AddComma.htm
+
+■ 動作確認環境
+PowerShell 7.5.2(Windows 環境で確認しましたが、Linux でも動くはず)
+Windows PowerShell 5.1

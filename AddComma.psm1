@@ -44,6 +44,13 @@
 	}
 
 	############ 本来の処理
-	$_.ToString("#,0.##########") | Set-Clipboard -PassThru
+	if( $PSVersionTable.PSVersion.Major -gt 5 ){
+		$_.ToString("#,0.##########") | Set-Clipboard -PassThru
+	}
+	else{
+		$Ans = $_.ToString("#,0.##########")
+		$Ans | Set-Clipboard
+		Write-Output $Ans
+	}
 }
 
